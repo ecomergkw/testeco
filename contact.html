@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>اتصل بنا - شركة طلبات مارت للمواد الغذائية</title>
+    <title>اتصل بنا - شركه طلبات مارت للمواد الغذائيه</title>
     <style>
         * {
             margin: 0;
@@ -31,10 +31,18 @@
             padding: 0 20px;
         }
 
-        .logo {
+        .brand-mark {
             width: 80px;
             height: 80px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             margin-bottom: 1rem;
+            border: 2px solid rgba(255,255,255,0.85);
+            border-radius: 50%;
+            font-size: 2rem;
+            font-weight: 700;
+            background: rgba(255,255,255,0.16);
         }
 
         header h1 {
@@ -146,6 +154,16 @@
             line-height: 1.8;
         }
 
+        .legal-card {
+            text-align: right;
+        }
+
+        .legal-card address {
+            font-style: normal;
+            color: #555;
+            line-height: 1.9;
+        }
+
         footer {
             background: #333;
             color: white;
@@ -183,6 +201,13 @@
             color: #aaa;
         }
 
+        .legal-details {
+            margin: 0 auto 1rem;
+            max-width: 850px;
+            color: #ddd;
+            line-height: 1.9;
+        }
+
         @media (max-width: 768px) {
             header h1 {
                 font-size: 1.8rem;
@@ -214,8 +239,8 @@
 <body>
     <header>
         <div class="container">
-            <img src="logo.png" alt="شركة طلبات مارت للمواد الغذائية" class="logo">
-            <h1>شركة طلبات مارت للمواد الغذائية</h1>
+            <div class="brand-mark" aria-label="شركه طلبات مارت للمواد الغذائيه">TM</div>
+            <h1>شركه طلبات مارت للمواد الغذائيه</h1>
             <p>توزيع وتوريد المواد الغذائية الطازة والعالية الجودة</p>
         </div>
     </header>
@@ -247,16 +272,18 @@
 
                 <div class="contact-card">
                     <div class="icon">📱</div>
-                    <h3>WhatsApp - الرقم الأول</h3>
-                    <p>تواصل معنا مباشرة</p>
-                    <a href="https://wa.me/96566355778" target="_blank">+965 66355778</a>
-                </div>
-
-                <div class="contact-card">
-                    <div class="icon">📱</div>
-                    <h3>WhatsApp - الرقم الثاني</h3>
+                    <h3>WhatsApp</h3>
                     <p>تواصل معنا مباشرة</p>
                     <a href="https://wa.me/96565612377" target="_blank">+965 65612377</a>
+                </div>
+
+                <div class="contact-card legal-card">
+                    <div class="icon">📍</div>
+                    <h3>بيانات الشركة</h3>
+                    <p>الاسم القانوني: شركه طلبات مارت للمواد الغذائيه</p>
+                    <p>رقم الترخيص: 2024/3978</p>
+                    <p>السجل التجاري: 437024</p>
+                    <address>العنوان: الفروانية، شارع علي فهد الدويله، بيت التمويل الكويتي/مجمع بهمن، الدور 4، الكويت</address>
                 </div>
             </div>
 
@@ -278,7 +305,12 @@
                 <a href="refund.html">سياسة الاسترجاع</a>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 شركة طلبات مارت للمواد الغذائية. جميع الحقوق محفوظة.</p>
+                <div class="legal-details">
+                    <p>الاسم القانوني: شركه طلبات مارت للمواد الغذائيه</p>
+                    <p>رقم الترخيص: 2024/3978 | السجل التجاري: 437024 | الهاتف: +965 65612377</p>
+                    <p>العنوان: الفروانية، شارع علي فهد الدويله، بيت التمويل الكويتي/مجمع بهمن، الدور 4، الكويت</p>
+                </div>
+                <p>&copy; 2026 شركه طلبات مارت للمواد الغذائيه. جميع الحقوق محفوظة.</p>
             </div>
         </div>
     </footer>
